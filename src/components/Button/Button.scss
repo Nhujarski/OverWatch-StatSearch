@@ -1,0 +1,18 @@
+@use "../../utils/variables";
+
+.search-button {
+  border: none;
+  cursor: pointer ;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  width: 100px;
+  height: 38px;
+  background: variables.$primary;
+  border-radius: 10px;
+  color: variables.$trimary;
+  &:hover{
+    background: lighten( variables.$primary, 15%);
+    color:lighten(variables.$trimary,15% );
+  }
+}
