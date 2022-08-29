@@ -5,7 +5,7 @@ import "./Dropdown.scss";
 function Dropdown() {
   return (
     <div className='dropdown-container'>
-      <select name='platform'>
+      <select className='dropdown' name='platform'>
         <option value='xbl'>Xbox</option>
         <option value='psn'>Playstation</option>
         <option value='pc'>PC</option>
