@@ -1,11 +1,10 @@
 import "./App.scss";
-import Button from "./components/Button/Button";
+import Search from "./components/Search/Search";
 
 function App() {
   return (
     <div className='App'>
-      <h1>Test</h1>
-      <Button onClick={() => console.log('clicked!!!')} children={'Search'} />
+      <Search />
     </div>
   );
 }

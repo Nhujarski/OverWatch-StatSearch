@@ -3,16 +3,15 @@
 .search-button {
   border: none;
   cursor: pointer ;
-  padding: 10px;
-  color: white;
+  padding: 14px 40px;
   font-size: 16px;
-  width: 100px;
-  height: 38px;
-  background: variables.$primary;
+  background: variables.$overwatch-darkBlue;
   border-radius: 10px;
-  color: variables.$trimary;
+  color: variables.$overwatch-orange;
+  transition: .5s ease;
   &:hover{
-    background: lighten( variables.$primary, 15%);
-    color:lighten(variables.$trimary,15% );
+    background: lighten( variables.$overwatch-darkBlue, 5%);
+    color:lighten(variables.$overwatch-orange,5% );
+    
   }
 }

@@ -1,10 +1,8 @@
 @use "./utils/variables";
 
 .App {
-  text-align: center;
   width: 100vw;
   height: 100vh;
-  h1{
-    color: variables.$primary;
-  }
+  display: flex;
+  justify-content: center;
 }
