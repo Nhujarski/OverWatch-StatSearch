@@ -2,8 +2,9 @@
 
 .search-button {
   border: none;
+  display: inline-block;
   cursor: pointer ;
-  padding: 14px 40px;
+  padding: 12px 28px;
   font-size: 16px;
   background: variables.$overwatch-darkBlue;
   border-radius: 10px;

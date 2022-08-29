@@ -2,6 +2,8 @@ import React from "react";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 
+import "./Search.scss";
+
 function Search() {
   return (
     <div className='form-container'>
