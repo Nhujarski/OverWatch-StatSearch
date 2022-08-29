@@ -18,4 +18,8 @@ You may also see any lint errors in the console.
 
 
 
-# Development is on going.
+## Project status
+
+Development is on going.
+
+<img src='https://img.shields.io/github/last-commit/Nhujarski/SpartanUI' />
