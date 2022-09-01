@@ -1,10 +1,10 @@
 import "./App.scss";
-import Search from "./components/Search/Search";
+import Layout from "./components/Layout/Layout";
 
 function App() {
   return (
     <div className='App'>
-      <Search />
+      <Layout />
     </div>
   );
 }
