@@ -6,29 +6,14 @@ import Dropdown from "../Dropdown/Dropdown";
 import "./Search.scss";
 
 function Search() {
-  const options = {
-    method: "GET",
-    // mode: "no - cors",
-  };
-  // on render
-  useEffect(() => {
-    fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:signInWithCustomToken?key=d2f7bdd568msh1ea9d7dc992a568p1c8fd9jsn52e47a262465",
-      options
-    )
-      .then((res) => res.json())
-      .then((data) => console.log(data));
-  }, []);
-
   const handleClick = (e) => {
     e.preventDefault();
-    fetch(
-      "https://cors-anywhere.herokuapp.com/https://playoverwatch.com/en-us/career/xbl/HusseinObama-11715"
-    )
+    fetch(" https://ow-api.com/v2/stats/pc/cats-11481/profile")
       .then((response) => response.json())
-      .then((data) => console.log("data >>>>", data))
-      .catch((error) => console.log("error >>> ", error));
+      .then((response) => console.log(response))
+      .catch((err) => console.error(err));
   };
+
   return (
     <div className='form-container'>
       <h1>OverSearch</h1>
