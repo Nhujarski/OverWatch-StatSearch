@@ -8,7 +8,7 @@ import "./Search.scss";
 function Search() {
   const handleClick = (e) => {
     e.preventDefault();
-    fetch(" https://ow-api.com/v3/stats/pc/cats-11481/profile")
+    fetch(" https://ow-api.com/v3/stats/xbl/clevelandboy-1466/profile")
       .then((response) => response.json())
       .then((response) => console.log(response))
       .catch((err) => console.error(err));
